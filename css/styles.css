@@ -8,6 +8,11 @@ nav.navbar {
    background: rgba(0,0,0,0.7) 
 }
 
+.nav-item {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 /*CAROUSEL*/
 
 
@@ -21,7 +26,24 @@ section {
     padding-top: 40px;
 }
 
+p {
+    font-size: 19px;
+}
 
+#szt-logo {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
 
 /*COUNTER*/
 
@@ -76,9 +98,34 @@ section {
      margin-bottom: 15px !important
  }
 
-/*BACKGROUND*/
+/*CARDS*/
 
 
+/*CAREER*/
+
+.fa.career {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+div.career {
+    display: inline;
+    margin: 12px;
+}
+
+div.career.mechanic {
+    margin-left: 50px;
+}
+
+div.career.driver {
+    margin-left: 0;
+}
+
+div.career.loader {
+    margin-left: 8px;
+}
 
 /*FORM*/
 label {
@@ -99,15 +146,43 @@ textarea {
     width: 100%;
 }
 
-.btn-info{
+select {
+    display: block;
+    margin: 10px;
+    width: 100%
+}
+
+select > option[selected] {
+    color: lightblue;
+}
+
+.btn-info {
     background-color: #3e6199;
     border: 1px solid #3e6199;
+}
+
+.btn-info:hover {
+    background-color: #507bbf;
+    border: 1px solid #507bbf;
+    
+}
+
+.btn-info:active {
+    background-color: #507bbf;
+    border: 1px solid #507bbf;
+    
+}
+
+.btn-info:visited {
+    background-color: #507bbf;
+    border: 1px solid #507bbf;
+    
 }
 
 /*MAPS*/
 
 .googlemaps {
-    margin: 50px;
+    padding: 5%;
 }
 
 
@@ -282,3 +357,10 @@ small a:hover {
     text-decoration: none;
 }
 /* FOOTER END */
+
+@media only screen and (max-width: 992px) {
+    .card-group {
+        display: block;
+    }
+    
+}

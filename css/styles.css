@@ -21,6 +21,8 @@ section {
     padding-top: 40px;
 }
 
+
+
 /*COUNTER*/
 
  .counter-section i {
@@ -100,6 +102,12 @@ textarea {
 .btn-info{
     background-color: #3e6199;
     border: 1px solid #3e6199;
+}
+
+/*MAPS*/
+
+.googlemaps {
+    margin: 50px;
 }
 
 

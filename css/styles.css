@@ -4,6 +4,11 @@ html {
 
 /*NAVBAR*/
 
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
 .top-name {
     font-size: 16px;
 }
@@ -375,6 +380,18 @@ small a:hover {
 @media only screen and (max-width: 992px) {
     .card-group {
         display: block;
+    }
+    
+    .card.services {
+        width: 90%;
+    }
+    
+    img.career-icons {
+        width: 100%;
+    }
+    
+    .navbar-brand {
+        max-width: 60%;
     }
     
 }

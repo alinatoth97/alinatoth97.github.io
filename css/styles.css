@@ -3,7 +3,6 @@ html {
 }
 
 /*NAVBAR*/
-
 .navbar-brand {
     margin: 0;
     padding: 0;
@@ -14,17 +13,13 @@ html {
 }
 
 nav.navbar {
-   background: rgba(0,0,0,0.7) 
+   background: rgba(0,0,0,0.7);
 }
 
 .nav-item {
     font-size: 18px;
     font-weight: 600;
 }
-
-
-/*CAROUSEL*/
-
 
 /*CONTENT*/
 .container-fluid.content {
@@ -59,7 +54,7 @@ button a:hover {
 
  .counter-section i {
      display: block;
-     margin: 0 0 10px
+     margin: 0 0 10px;
  }
 
  .counter-section span.counter {
@@ -68,44 +63,44 @@ button a:hover {
      line-height: 60px;
      display: block;
      font-family: "Oswald", sans-serif;
-     letter-spacing: 2px
+     letter-spacing: 2px;
  }
 
  .counter-title {
      font-size: 12px;
      letter-spacing: 2px;
-     text-transform: uppercase
+     text-transform: uppercase;
  }
 
  .counter-icon {
      top: 25px;
-     position: relative
+     position: relative;
  }
 
  .counter-style2 .counter-title {
      letter-spacing: 0.55px;
-     float: left
+     float: left;
  }
 
  .counter-style2 span.counter {
      letter-spacing: 0.55px;
      float: left;
-     margin-right: 10px
+     margin-right: 10px;
  }
 
  .counter-style2 i {
      float: right;
      line-height: 26px;
-     margin: 0 10px 0 0
+     margin: 0 10px 0 0;
  }
 
  .counter-subheadline span {
-     float: right
+     float: right;
  }
 
  .medium-icon {
      font-size: 40px !important;
-     margin-bottom: 15px !important
+     margin-bottom: 15px !important;
  }
 
 .counter-container {
@@ -114,38 +109,7 @@ button a:hover {
     background-color: white;
 }
 
-/*CARDS*/
-
-.card.services {
-    
-}
-
 /*CAREER*/
-
-.fa.career {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-div.career {
-    display: inline;
-    margin: 12px;
-}
-
-div.career.mechanic {
-    margin-left: 50px;
-}
-
-div.career.driver {
-    margin-left: 0;
-}
-
-div.career.loader {
-    margin-left: 8px;
-}
-
 .btn-career {
     margin-top: 25px;
     margin-left: auto;
@@ -156,7 +120,8 @@ div.career.loader {
 label {
     text-align: center;
     margin: 0 auto;
-    
+    align-items: center;
+    font-weight: 500;
 }
 
 input {
@@ -178,7 +143,7 @@ select {
 }
 
 select > option[selected] {
-    color: lightblue;
+    color: darkgrey;
 }
 
 .btn-info {
@@ -204,16 +169,10 @@ select > option[selected] {
     
 }
 
-/*MAPS*/
-
-.googlemaps {
-    padding: 5%;
+.container.form {
+    padding: 20px;
+    padding-right: 35px;
 }
-
-
-/*REVIEW*/
-
-/* END OF REVIEW CSS*/
 
 /*REVIEWS CAROUSEL*/
 
@@ -278,7 +237,7 @@ select > option[selected] {
             transform:skew(8deg) rotate(3deg);
 }
 
-/* FOOTER START*/
+/*FOOTER*/
 
  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
@@ -360,5 +319,14 @@ small a:hover {
     .navbar-brand {
         max-width: 60%;
     }
+    
+    .carousel-review p {
+    color: white;
+    text-align: center;
+    margin:10%;
+    margin-top: 15%;
+    margin-bottom: 0;
+    font-size: 16px;
+}
     
 }

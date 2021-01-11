@@ -108,6 +108,12 @@ button a:hover {
      margin-bottom: 15px !important
  }
 
+.counter-container {
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+}
+
 /*CARDS*/
 
 .card.services {
@@ -206,86 +212,6 @@ select > option[selected] {
 
 
 /*REVIEW*/
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
-
-.card {
-    margin: 0 auto;
-    margin-bottom: 20px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    padding: 20px;
-    width: 450px;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border-radius: 6px;
-    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1)
-}
-
-.comment-box {
-    padding: 5px
-}
-
-.comment-area textarea {
-    resize: none;
-    border: 1px solid #ad9f9f
-}
-
-.form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #ffffff;
-    outline: 0;
-}
-
-.send {
-    color: #fff;
-}
-
-.send:hover {
-    color: #fff;
-}
-
-.rating {
-    display: flex;
-    margin-top: -10px;
-    flex-direction: row-reverse;
-    margin-left: -4px;
-    float: left
-}
-
-.rating>input {
-    display: none
-}
-
-.rating>label {
-    position: relative;
-    width: 19px;
-    font-size: 25px;
-    color: #F2C300;
-    cursor: pointer
-}
-
-.rating>label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0
-}
-
-.rating>label:hover:before,
-.rating>label:hover~label:before {
-    opacity: 1 !important
-}
-
-.rating>input:checked~label:before {
-    opacity: 1
-}
-
-.rating:hover>input:checked~label:before {
-    opacity: 0.4
-}
 
 /* END OF REVIEW CSS*/
 
@@ -311,13 +237,54 @@ select > option[selected] {
     font-size: 18px;
 }
 
+/*MAPS*/
+
+.mapouter {
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 20px;
+}
+
+.effect6
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect6:before, .effect6:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect6:after
+{
+  right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
 /* FOOTER START*/
 
  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
  .container-fluid.footer {
      overflow: hidden;
-     margin-top: 250px;
+     margin-top: 50px;
      background: #262626;
      color: #6c757d !important;
      margin-bottom: 0;

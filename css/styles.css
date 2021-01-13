@@ -55,6 +55,11 @@ img.career-icons {
     width: 100%;
 }
 
+.p-5.services {
+    margin: 0 auto;
+    padding: 0 !important;
+}
+
 /*COUNTER*/
 
 .counter-section i {

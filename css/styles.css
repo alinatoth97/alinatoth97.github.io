@@ -13,7 +13,7 @@ html {
 }
 
 nav.navbar {
-   background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .nav-item {
@@ -50,58 +50,63 @@ button a:hover {
     color: white;
 }
 
+img.partners,
+img.career-icons {
+    width: 100%;
+}
+
 /*COUNTER*/
 
- .counter-section i {
-     display: block;
-     margin: 0 0 10px;
- }
+.counter-section i {
+    display: block;
+    margin: 0 0 10px;
+}
 
- .counter-section span.counter {
-     font-size: 40px;
-     color: #000;
-     line-height: 60px;
-     display: block;
-     font-family: "Oswald", sans-serif;
-     letter-spacing: 2px;
- }
+.counter-section span.counter {
+    font-size: 40px;
+    color: #000;
+    line-height: 60px;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+}
 
- .counter-title {
-     font-size: 12px;
-     letter-spacing: 2px;
-     text-transform: uppercase;
- }
+.counter-title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
- .counter-icon {
-     top: 25px;
-     position: relative;
- }
+.counter-icon {
+    top: 25px;
+    position: relative;
+}
 
- .counter-style2 .counter-title {
-     letter-spacing: 0.55px;
-     float: left;
- }
+.counter-style2 .counter-title {
+    letter-spacing: 0.55px;
+    float: left;
+}
 
- .counter-style2 span.counter {
-     letter-spacing: 0.55px;
-     float: left;
-     margin-right: 10px;
- }
+.counter-style2 span.counter {
+    letter-spacing: 0.55px;
+    float: left;
+    margin-right: 10px;
+}
 
- .counter-style2 i {
-     float: right;
-     line-height: 26px;
-     margin: 0 10px 0 0;
- }
+.counter-style2 i {
+    float: right;
+    line-height: 26px;
+    margin: 0 10px 0 0;
+}
 
- .counter-subheadline span {
-     float: right;
- }
+.counter-subheadline span {
+    float: right;
+}
 
- .medium-icon {
-     font-size: 40px !important;
-     margin-bottom: 15px !important;
- }
+.medium-icon {
+    font-size: 40px !important;
+    margin-bottom: 15px !important;
+}
 
 .counter-container {
     margin: 40px;
@@ -154,19 +159,19 @@ select > option[selected] {
 .btn-info:hover {
     background-color: #507bbf;
     border: 1px solid #507bbf;
-    
+
 }
 
 .btn-info:active {
     background-color: #507bbf;
     border: 1px solid #507bbf;
-    
+
 }
 
 .btn-info:visited {
     background-color: #507bbf;
     border: 1px solid #507bbf;
-    
+
 }
 
 .container.form {
@@ -176,7 +181,7 @@ select > option[selected] {
 
 /*REVIEWS CAROUSEL*/
 
-.carousel-review>.carousel-item {
+.carousel-review > .carousel-item {
     background-color: #262626;
     height: 300px;
 }
@@ -190,7 +195,7 @@ select > option[selected] {
 .carousel-review p {
     color: white;
     text-align: center;
-    margin:110px;
+    margin: 110px;
     margin-top: 80px;
     margin-bottom: 10px;
     font-size: 18px;
@@ -199,80 +204,90 @@ select > option[selected] {
 /*MAPS*/
 
 .mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 400px;
     margin: 0 auto;
     margin-top: 50px;
-    box-shadow: 20px;
 }
 
-.effect6
-{
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 400px;
 }
-.effect6:before, .effect6:after
-{
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:50%;
-    bottom:0;
-    left:10px;
-    right:10px;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
+
+.effect6 {
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-.effect6:after
-{
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
+
+.effect6:before,
+.effect6:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 50%;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+}
+
+.effect6:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
 }
 
 /*FOOTER*/
 
- @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
- .container-fluid.footer {
-     overflow: hidden;
-     margin-top: 50px;
-     background: #262626;
-     color: #6c757d !important;
-     margin-bottom: 0;
-     padding-bottom: 0
- }
+.container-fluid.footer {
+    overflow: hidden;
+    margin-top: 50px;
+    background: #262626;
+    color: #6c757d !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
 
- small {
-     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
- }
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
 
- .bold-text {
-     color: #989c9e !important
- }
+.bold-text {
+    color: #989c9e !important
+}
 
- .mt-55 {
-     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
- }
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
 
- h3 {
-     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
- }
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
 
- .social {
-     font-size: 21px !important
- }
+.social {
+    font-size: 21px !important
+}
 
- .rights {
-     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
- }
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
 
 .list-unstyled > li a {
     text-decoration: none;
@@ -284,7 +299,7 @@ select > option[selected] {
     color: #989c9e;
 }
 
-.social .fa{
+.social .fa {
     color: #6c757d;
 }
 
@@ -292,40 +307,41 @@ select > option[selected] {
     color: #989c9e;
 }
 
-small a { 
+small a {
     color: #6c757d;
     text-decoration: none;
 }
 
-small a:hover { 
+small a:hover {
     color: #989c9e;
     text-decoration: none;
 }
+
 /* FOOTER END */
 
 @media only screen and (max-width: 992px) {
     .card-group {
         display: block;
     }
-    
+
     .card.services {
         width: 90%;
     }
-    
+
     img.career-icons {
         width: 100%;
     }
-    
+
     .navbar-brand {
         max-width: 60%;
     }
-    
+
     .carousel-review p {
-    color: white;
-    text-align: center;
-    margin:10%;
-    margin-top: 15%;
-    margin-bottom: 0;
-    font-size: 16px;
+        color: white;
+        text-align: center;
+        margin: 10%;
+        margin-top: 15%;
+        margin-bottom: 0;
+        font-size: 16px;
     }
 }

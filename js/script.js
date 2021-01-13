@@ -1,3 +1,5 @@
+//COUNTER
+
 $(document).ready(function() {
 
 $('.counter').each(function () {
@@ -13,5 +15,3 @@ $(this).text(Math.ceil(now));
 });
 
 });
-
-
